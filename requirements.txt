@@ -1,0 +1,11 @@
+# Vulnerable Python dependencies for security testing
+Django==2.2.0  # CVE-2019-14234, CVE-2019-14235 - SQL injection vulnerabilities
+Flask==0.12.2  # Multiple security vulnerabilities, outdated version
+requests==2.6.0  # CVE-2018-18074 - Credentials leak vulnerability
+Pillow==6.0.0  # CVE-2020-5312, CVE-2020-5313 - Buffer overflow vulnerabilities
+PyYAML==5.1  # CVE-2020-1747 - Arbitrary code execution
+Jinja2==2.10  # CVE-2019-10906 - Sandbox escape vulnerability
+SQLAlchemy==1.2.0  # SQL injection vulnerabilities in older versions
+urllib3==1.24.1  # CVE-2019-11324, CVE-2020-26137 - CRLF injection
+cryptography==2.3  # Multiple cryptographic vulnerabilities
+Werkzeug==0.14.1  # CVE-2019-14806 - Path traversal vulnerability
